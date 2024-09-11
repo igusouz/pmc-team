@@ -1,7 +1,7 @@
 import json
 
 entradas = {
-        "servicos": ["casamento", "revelacao", "noivado", "culto", "alface"]
+        "servicos": ["casamento", "revelacao", "noivado", "culto"]
 }
 
 def verificar(entradas, palavra):
