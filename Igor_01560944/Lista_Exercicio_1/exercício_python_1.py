@@ -20,7 +20,14 @@ print(a)
 
 """3. Some dois números e exiba o resultado."""
 
-1 + 2
+def soma(a, b):
+    resultado = a + b
+    return resultado
+
+num1 = 5
+num2 = 10
+resultado = soma(num1, num2)
+print(resultado)
 
 """4. Verifique se um número é par ou ímpar.
 
@@ -39,17 +46,20 @@ print(f"O número {num} é {resultado}.")
 
 """5. Crie uma função que receba dois números e retorne a soma deles."""
 
-a = 3
-b = 4
+def soma(num1, num2):
+    return num1 + num2
+    
+resultado = soma(5, 10)
+print(resultado)
 
-soma = a + b
-print(soma)
 
 """6. Crie uma lista com os números de 1 a 5 e imprima-a.
 
 """
 
 array = [1, 2, 3, 4, 5]
+
+array.append(6)
 
 print(array)
 
@@ -63,7 +73,9 @@ print(array)
 
 """8. Remova o número 3 da lista."""
 
-array = [1, 2, 4, 5]
+array = [1, 2, 3,4, 5]
+
+array.remove(3)
 
 print(array)
 
